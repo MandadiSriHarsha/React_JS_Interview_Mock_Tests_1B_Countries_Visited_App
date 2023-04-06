@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-page-bg-container {
+  min-height: 100vh;
+  background-color: #161624;
+}
+
+.countries-list-heading {
+  color: #f1f5f9;
+  font-size: 30px;
+  padding: 30px 0px 30px 50px;
+  margin: 0px;
+}
+
+.countries-list-card {
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid #f1f5f9;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.countries-list-item {
+  border-bottom: 1px solid #f1f5f9;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #1f1f2f;
+  justify-content: space-between;
+}
+
+.countries-list-item-heading {
+  color: #ffffff;
+  margin: 0px;
+  padding: 40px 0px 20px 25px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.visit-class {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 15px 20px 15px 0px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+}
+
+.visited-class {
+  background-color: transparent;
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 15px 13px 15px 0px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+}
+
+.visited-countries-card {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px 0px 50px 0px;
+}
+
+.visited-country-item {
+  width: 100%;
+  max-width: 350px;
+  background-color: #1f1f2f;
+  margin: 10px 10px 10px 10px;
+}
+
+.visited-country-image {
+  width: 100%;
+}
+
+.visited-country-content-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.visited-country-name {
+  padding: 0px 0px 0px 10px;
+}
+
+.remove-button {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 14px 12px 10px;
+  padding: 6px 8px 6px 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.no-countries-found-bg-container {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.no-countries-visited-text {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
